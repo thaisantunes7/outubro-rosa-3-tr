@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0; <div class="imagens-corleone">
+    align-items: center;
+  }
+  
+  .cabecalho-imagem{
+    width: 6%;
+    display: flex;
+    align-items: center;
+  }   
+  header {
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background: #e87ad9;
+  }
+  
+  header .container-header {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 2em;
+  }
+  
+  header .container-header nav {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  header .container-header nav li a {
+    font-weight: 400;
+    color: #050303;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 0.8rem;
+  }
+
+  header .container-header nav li a.active:hover {
+
+    color: #ef2bef;
+            background-color: #fff; 
+            transition: 0.5s;
+            opacity: 0.5;
+    }
+  
+  header .container-header nav li a.active {
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 15px;
+  }
+  
+  
+  header .container-header .search-container input {
+    background: #ef2bef;
+    border: 0;
+    padding: 7px 10px;
+    border-radius: 7px;
+    width: 200px;
+    outline: 0;
+    color: #fff;
+  }
+  
+  header .container-header .search-container input::placeholder {
+    color: #fbf5f5;
+  }
+  
+  header .container-header .search-container {
+    display: flex;
+  }
+  
+  header .container-header .search-container button {
+    background: #ef2bef;
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 7px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: 0;
+  }
+  
+  header .container-header .mobile-menu {
+    display: none;
+  }
+  
+  header .container-header .mobile-menu img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    header .container-header .search-container {
+      display: none;
+    }
+    
+    header .container-header nav {
+      display: none;
+    }
+    
+     header .container-header .mobile-menu {
+      display: block;
+    }
+  }
+ 
+  .LOGOSITE{
+    width: 20%;
+  }
+
+.banner{
+	width: 55%;
+  padding: 60px;
+  padding-left: 500px;
+}
+
+.principal{
+	background: #f68fd9;
+	padding: 35px;
+}
+
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: center;
+}
+
+#missao {
+	font-size: 20px
+}
+
+em strong {
+	color: #FF0000;
+}
+
+.itens {
+	font-style: italic
+}
+
+.beneficio {
+	background: #f68fd9;
+	
+}
+
+.sinal{
+  background-color: #f68fd9;
+  text-align: center;
+  font-size: 30px;
+  padding: 30px;
+}
+
+ul {
+	display: flex;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.imagembeneficios {
+	width: 60%;
+}
+
+.IeII{
+  background-color: #e87ad9;
+  text-align: center;
+
+}
+.contato{
+  width: 20%;
+}
+
+.sintomas{
+  background-color: #e87ad9;
+}
+.rodape{
+    background-color: #f3bc75b2;
+    color: #351b03;
+    text-align:center;
+    padding: 50px 0;
+}
+
+.dor {
+  width: 20%;
+}
+  .dormencia {
+    width: 10%;
+  }
+
+.perda {
+  width: 20%;
+}  
+
+.duvida{
+  width: 15%;
+  box-align: center;
+  
+}
+
+.sintoma{
+  width: 15%;
+  box-align: center;
+}
+
+.beneficios {
+  background-color: #fff;
+}
+
+.centro {
+  font-size: 30px;
+  text-align: center;
+  background-color: #e87ad9;
+}
+
+.estagio{
+  font-size: 30px ;
+}
